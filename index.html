@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Scan Strategy Visualiser</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script language="javascript" src="stuff.js"></script>
+  </head>
+  <body>
+    
+    <div id="div-add-tilt">
+      Add a tilt:<br/>
+      Volume: 0, Elevation: 0, PRF: 1000, Rotation Rate: 12 <br/>
+      
+      <input id="btn-add-tilt" type="button" value="Add" />
+    </div>
+    
+    <div id="div-scan-list">
+	<div id="div-btn-add">+</div>
+	<table id="tbl-scan-list" class="tbl-scan-list">
+	  <thead>
+	    <tr>
+	      <th>Volume</th>
+	      <th>Elevation</th>
+	      <th>PRF</th>
+	      <th>Rotation Rate</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	  </tbody>
+	</table>
+	<div id="div-empty-table-text">No data to show</div>
+    </div>
+    
+  </body>
+</html>
